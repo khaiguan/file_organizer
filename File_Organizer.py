@@ -1,12 +1,8 @@
 import os
 import shutil
 
-# 1. Define the path to your messy folder
-# Use 'r' before the path string to avoid issues with backslashes on Windows
 source_dir = r"C:\Users\User\Downloads"
 
-# 2. Define your categories and their extensions
-# You can add more formats to these lists as needed
 extensions = {
     'Screenshots': ['.png'],
     'Images': ['.jpg', '.jpeg', '.webp', '.heic'],
@@ -52,4 +48,5 @@ def sort_files():
 if __name__ == "__main__":
     sort_files()
     print("Sorting complete!")
+
     quit()
